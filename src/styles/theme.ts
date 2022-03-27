@@ -20,7 +20,7 @@ export const base = {
   fontFamilyMono:
     "'SFMono-Regular',Consolas,'Liberation Mono', Menlo, Courier,monospace",
   fontWeight: 400,
-  zIndex: 100,
+  zIndex: 1500,
   link: colors.primary,
   placeholder: "#B1BECC",
   textSecondary: "#4E5C6E",
@@ -66,8 +66,8 @@ export const base = {
 
 export const light = {
   ...base,
-  background: colors.white,
-  text: colors.almostBlack,
+  background: "inherit", // colors.white,
+  text: "inherit", // colors.almostBlack,
   code: colors.lightBlack,
   cursor: colors.black,
   divider: colors.greyMid,
@@ -93,8 +93,8 @@ export const light = {
 
 export const dark = {
   ...base,
-  background: colors.almostBlack,
-  text: colors.almostWhite,
+  background: "inherit", // colors.almostBlack,
+  text: "inherit", // colors.almostWhite,
   code: colors.almostWhite,
   cursor: colors.white,
   divider: "#4E5C6E",
