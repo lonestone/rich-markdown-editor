@@ -234,3 +234,18 @@ RTL.args = {
 - [x] آیتم اول
 - [ ] آیتم دوم`,
 };
+
+export const InModal: Story<Props> = args => (
+  <div style={{ border: "2px solid blue", height: "400px", overflow: "auto" }}>
+    <div
+      style={{
+        border: "2px solid green",
+        margin: "200px 0",
+        position: "relative",
+      }}
+    >
+      <Editor {...args} />
+    </div>
+  </div>
+);
+InModal.args = Default.args;
