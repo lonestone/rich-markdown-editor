@@ -94,9 +94,13 @@ export default class YCollab extends Extension {
   }
 
   applyValue(value: string) {
+    // Compute updates from value
     const tmpYdoc = prosemirrorToYDoc(this.editor.createState(value).doc);
-    const state = Y.encodeStateAsUpdate(tmpYdoc);
-    Y.applyUpdate(this.ydoc, state);
+    const updates = Y.encodeStateAsUpdate(tmpYdoc);
+    // Clear doc before applying updates
+    this.yXmlFragment.delete(0, this.yXmlFragment.length);
+    // Apply updates to cleared doc
+    Y.applyUpdate(this.ydoc, updates);
   }
 
   getUpdates(): Uint8Array {

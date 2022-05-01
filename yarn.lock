@@ -9351,6 +9351,13 @@ prosemirror-transform@1.2.5, prosemirror-transform@^1.0.0, prosemirror-transform
   dependencies:
     prosemirror-model "^1.0.0"
 
+prosemirror-transform@^1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/prosemirror-transform/-/prosemirror-transform-1.4.2.tgz#35f56091bcab3359f1eb90e82ce9f20cc52105c1"
+  integrity sha512-bcIsf3uRZhfab0xRfyyxOEh6eqSszq/hJbDbmUumFnbHBoWhB/uXbpz6vvUxfk0XiEvrZDJ+5pXRrNDc1Hu3vQ==
+  dependencies:
+    prosemirror-model "^1.0.0"
+
 prosemirror-utils@^0.9.6:
   version "0.9.6"
   resolved "https://registry.yarnpkg.com/prosemirror-utils/-/prosemirror-utils-0.9.6.tgz#3d97bd85897e3b535555867dc95a51399116a973"
