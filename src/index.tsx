@@ -200,7 +200,7 @@ class RichMarkdownEditor extends React.PureComponent<Props, State> {
     emojiMenuOpen: false,
   };
 
-  isBlurred: boolean;
+  isBlurred = true;
   extensions: ExtensionManager;
   element?: HTMLElement | null;
   view: EditorView;

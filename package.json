@@ -1,7 +1,7 @@
 {
   "name": "@rolebase/editor",
   "description": "Fork of rich-markdown-editor",
-  "version": "11.21.14",
+  "version": "11.21.15",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "license": "BSD-3-Clause",
